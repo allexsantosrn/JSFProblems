@@ -11,6 +11,18 @@ Conjunto de pequenas aplicações utilizando o framework web JSF.
 
 ### Links de apoio
 - Projeto Algaworks: (https://github.com/algaworks/curso-jsf-primefaces-essencial).
-- Helper GitHub: (https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer).
+- Helper GitHub: (https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer) e (https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Configura%C3%A7%C3%A3o-Inicial-do-Git).
+
+### Subir Tomcat por linha de comando
+- Na linha de comando, dentro da pasta bin, atribuir permissão de execução: chmod +x *.sh.
+- Iniciar servidor com o comando: ./startup.sh.
+- Digitar no browser: (http://localhost:8080/). Se tudo estiver ok, uma página deverá ser exibida.
+- Para encerrar o servidor, inserir o comando: ./shutdown.sh.
+
+### Configuração do Tomcat no Eclipse
+ 
+- Clicar na aba de instalação de server (Atentar para seleção da versão correta do Tomcat).
+- Adicionar caminho do diretório do Tomcat. 
+- Finalizar instalação.
 
 
