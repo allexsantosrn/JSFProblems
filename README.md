@@ -36,7 +36,7 @@ Conjunto de pequenas aplicações utilizando o framework web JSF.
 - O projeto apresentará erros no POM, em especial na ausência do arquivo: web.xml.
 - Adicionar codificação: UTF-8 junto as propriedades do projeto
 - Adicionar execução no Java 15 junto as propriedades do projeto.
-- Adicionar dependência do JSF Mojarra 2.2.
+- Adicionar dependência do JSF Mojarra 2.2 (https://mvnrepository.com/artifact/org.glassfish/javax.faces/2.2.20).
 
 ### Configurações no Eclipse para execução
 - Adicionar o JavaServer Faces 2.2: Botão Direito no Projeto >> Properties >> Project Facets.
@@ -56,6 +56,9 @@ Conjunto de pequenas aplicações utilizando o framework web JSF.
 - Associar projeto junto ao servidor Tomcat: Clicar com direito no servidor >> Add and Remove.
 - Iniciar servidor em modo debug.
 - Executar via browser em: (http://localhost:8080/OlaMaven/OlaMaven.jsp).
+
+## Adicionando o Primefaces
+- Pode ser feita com a adição da dependência junto ao POM.xml (https://mvnrepository.com/artifact/org.primefaces/primefaces/11.0.0).
 
 
 
